@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA97383F1590DDE7002F8764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA97383E1590DDE7002F8764 /* UIKit.framework */; };
+		AA9738411590DDE7002F8764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9738401590DDE7002F8764 /* Foundation.framework */; };
+		AA9738431590DDE7002F8764 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9738421590DDE7002F8764 /* CoreGraphics.framework */; };
+		AA9738491590DDE7002F8764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9738471590DDE7002F8764 /* InfoPlist.strings */; };
+		AA97384B1590DDE7002F8764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97384A1590DDE7002F8764 /* main.m */; };
+		AA97384F1590DDE7002F8764 /* T4TAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA97384E1590DDE7002F8764 /* T4TAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA97383A1590DDE7002F8764 /* MobileTrips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileTrips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA97383E1590DDE7002F8764 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA9738401590DDE7002F8764 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA9738421590DDE7002F8764 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA9738461590DDE7002F8764 /* MobileTrips-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileTrips-Info.plist"; sourceTree = "<group>"; };
+		AA9738481590DDE7002F8764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA97384A1590DDE7002F8764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA97384C1590DDE7002F8764 /* MobileTrips-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileTrips-Prefix.pch"; sourceTree = "<group>"; };
+		AA97384D1590DDE7002F8764 /* T4TAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T4TAppDelegate.h; sourceTree = "<group>"; };
+		AA97384E1590DDE7002F8764 /* T4TAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T4TAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9738371590DDE7002F8764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA97383F1590DDE7002F8764 /* UIKit.framework in Frameworks */,
+				AA9738411590DDE7002F8764 /* Foundation.framework in Frameworks */,
+				AA9738431590DDE7002F8764 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA97382F1590DDE7002F8764 = {
+			isa = PBXGroup;
+			children = (
+				AA9738441590DDE7002F8764 /* MobileTrips */,
+				AA97383D1590DDE7002F8764 /* Frameworks */,
+				AA97383B1590DDE7002F8764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA97383B1590DDE7002F8764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA97383A1590DDE7002F8764 /* MobileTrips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA97383D1590DDE7002F8764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA97383E1590DDE7002F8764 /* UIKit.framework */,
+				AA9738401590DDE7002F8764 /* Foundation.framework */,
+				AA9738421590DDE7002F8764 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA9738441590DDE7002F8764 /* MobileTrips */ = {
+			isa = PBXGroup;
+			children = (
+				AA97384D1590DDE7002F8764 /* T4TAppDelegate.h */,
+				AA97384E1590DDE7002F8764 /* T4TAppDelegate.m */,
+				AA9738451590DDE7002F8764 /* Supporting Files */,
+			);
+			path = MobileTrips;
+			sourceTree = "<group>";
+		};
+		AA9738451590DDE7002F8764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA97384A1590DDE7002F8764 /* main.m */,
+				AA97384C1590DDE7002F8764 /* MobileTrips-Prefix.pch */,
+				AA9738461590DDE7002F8764 /* MobileTrips-Info.plist */,
+				AA9738471590DDE7002F8764 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9738391590DDE7002F8764 /* MobileTrips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9738521590DDE7002F8764 /* Build configuration list for PBXNativeTarget "MobileTrips" */;
+			buildPhases = (
+				AA9738361590DDE7002F8764 /* Sources */,
+				AA9738371590DDE7002F8764 /* Frameworks */,
+				AA9738381590DDE7002F8764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileTrips;
+			productName = MobileTrips;
+			productReference = AA97383A1590DDE7002F8764 /* MobileTrips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9738311590DDE7002F8764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = T4T;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Progress Solutions, LLC";
+			};
+			buildConfigurationList = AA9738341590DDE7002F8764 /* Build configuration list for PBXProject "MobileTrips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA97382F1590DDE7002F8764;
+			productRefGroup = AA97383B1590DDE7002F8764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9738391590DDE7002F8764 /* MobileTrips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9738381590DDE7002F8764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9738491590DDE7002F8764 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9738361590DDE7002F8764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA97384B1590DDE7002F8764 /* main.m in Sources */,
+				AA97384F1590DDE7002F8764 /* T4TAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA9738471590DDE7002F8764 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9738481590DDE7002F8764 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9738501590DDE7002F8764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9738511590DDE7002F8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9738531590DDE7002F8764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileTrips/MobileTrips-Prefix.pch";
+				INFOPLIST_FILE = "MobileTrips/MobileTrips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA9738541590DDE7002F8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileTrips/MobileTrips-Prefix.pch";
+				INFOPLIST_FILE = "MobileTrips/MobileTrips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9738341590DDE7002F8764 /* Build configuration list for PBXProject "MobileTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9738501590DDE7002F8764 /* Debug */,
+				AA9738511590DDE7002F8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9738521590DDE7002F8764 /* Build configuration list for PBXNativeTarget "MobileTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9738531590DDE7002F8764 /* Debug */,
+				AA9738541590DDE7002F8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9738311590DDE7002F8764 /* Project object */;
+}
